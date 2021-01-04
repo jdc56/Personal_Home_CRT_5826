@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	background-color:black;
+}
+
+body{
+	font-family: Verdana;
+	color: white;
+}
+
+header{
+	font-size: 75%;
+}
+
+main{
+	padding-top: 225px;
+	width: 85%;
+	max-width: 960px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#LEye{
+	float: left;
+}
+
+#REye{
+	float: right;
+}
+
+main a{
+	font-family: courier;
+	color: white;
+	text-decoration: none;
+}
+
+main p{
+	padding-top: 20px;
+}
+
+footer{
+	 position: fixed ;
+  	left: 0 ;
+ 	 bottom: 0 ;
+ 	 z-index: 1 ;
+}
+
+footer p{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
